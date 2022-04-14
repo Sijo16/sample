@@ -4,7 +4,7 @@
 }
 
 .container {
-    background: url(w1.jpg) no-repeat;
+    background: url(a1.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -12,7 +12,7 @@
 .navbar {
     height: 80px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(46, 45, 45, 0.915);
 }
 
 .navbar ul {
@@ -43,16 +43,16 @@
 }
 
 .name {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: azure;
-    text-align: left;
-    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+    color: white;
 }
 
 .id {
-    color: antiquewhite;
+    color: red;
     font-size: 50px;
 }
